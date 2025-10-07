@@ -1,0 +1,72 @@
+<html>
+<head>
+</head>
+<title>registration form</title>
+</head>
+<style>
+input[type="submit"] {
+  background-color: green;
+}
+
+input[type="reset"] {
+  background-color: red;
+}
+
+</style>
+<body>
+<center><h2>REGISTRATION FORM</center></h2>
+<form id="registration">
+<fieldset>
+<legend> user information</legend>
+<label for="Name">name:</label>
+<select id="name" name="name" required>
+<option value="">Mr</option>
+<option value="">Mrs</option>
+<option value="2">Miss</option></select>
+<input type="text" id="name" name="name" required>
+<br>
+<br>
+<label for="phone">phone:</label>
+<input type="text" id="phone" name="phone" required>
+<label for="email">email:</label>
+<input type="text" id="email" name="email" required>
+<br>
+</fieldset>
+<br>
+<label for="address">address:</label>
+<textarea id="address name="address" ></textarea>
+<br>
+<br>
+<label>gender:</label>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">male:</label>
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="female">female:</label>
+<input type="radio" id="other" name="other" value="other" required>
+<label for="other">other</label>
+<br>
+<br>
+<label>languages known:  </label>
+<input type="checkbox" id="english" name="languages" value="english" required>
+<label for="english">english</label>
+<input type="checkbox" id="malayalam" name=" languages "value="malayalam" required>
+<label for="malayalam">malayalam</label>
+<input type="checkbox" id="tamil" name=" languag"value="tamil" required>
+<label for="tamil">tamil:</label>
+<br>
+<br>
+<label for="course">course:</label>
+<select id=course" name="course" required>
+<option value="">MCA</option>
+<option value="1">MBA</option>
+<option value="2">BTECH</option>
+</select>
+<br>
+<br>
+<center>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</center>
+</form>
+</body>
+</html>
