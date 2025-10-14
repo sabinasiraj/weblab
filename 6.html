@@ -1,0 +1,46 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+title>JavaScript Math and String Methods</title>
+</head>
+<body>
+  <h1>JavaScript Math and String Methods</h1>
+
+  <h2>Math Properties (Constants)</h2>
+  <p id="demo"></p>
+  <script>
+    document.getElementById("demo").innerHTML =
+      "<p><b>Math.E:</b> " + Math.E + "</p>" +
+      "<p><b>Math.PI:</b> " + Math.PI + "</p>" +
+      "<p><b>Math.SQRT2:</b> " + Math.SQRT2 + "</p>" +
+      "<p><b>Math.SQRT1_2:</b> " + Math.SQRT1_2 + "</p>" +
+      "<p><b>Math.LN2:</b> " + Math.LN2 + "</p>" +
+      "<p><b>Math.LN10:</b> " + Math.LN10 + "</p>" +
+      "<p><b>Math.LOG2E:</b> " + Math.LOG2E + "</p>" +
+      "<p><b>Math.LOG10E:</b> " + Math.LOG10E + "</p>";
+  </script>
+
+  <script>
+    document.writeln("<h2>Math Objects</h2>");
+    let num = 12.56;
+    document.writeln("Number is: " + num + "<br>");
+    document.writeln("Integer part is: " + Math.floor(num) + "<br>");
+    document.writeln("Nearest (rounded): " + Math.round(num) + "<br>");
+    document.writeln("Math.sqrt(): " + Math.sqrt(num) + "<br>");
+  </script>
+
+  <h3>String Objects</h3>
+  <script>
+    var str = "  Hello JavaScript World!  ";
+    document.writeln("<p><b>Original String:</b> '<code>" + str + "</code>'</p>");
+    document.writeln("<p><b>str.length:</b> " + str.length + "</p>");
+    document.writeln("<p><b>str.trim():</b> '<code>" + str.trim() + "</code>'</p>");
+    document.writeln("<p><b>str.toUpperCase():</b> '" + str.toUpperCase() + "'</p>");
+    document.writeln("<p><b>str.toLowerCase():</b> '" + str.toLowerCase() + "'</p>");
+    document.writeln("<p><b>str.indexOf('JavaScript'):</b> " + str.indexOf("JavaScript") + "</p>");
+  </script>
+</body>
+</html>
+
